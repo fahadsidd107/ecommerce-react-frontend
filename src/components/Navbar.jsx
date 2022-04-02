@@ -13,6 +13,13 @@ const Wrapper = styled.div`
 const Left = styled.div`
 flex:1;
 `;
+
+const Language = styled.span`
+font-size: 14px;
+cursor: pointer;
+`;
+
+
 const Center = styled.div`
 flex:1;
 `;
@@ -24,7 +31,9 @@ function Navbar() {
   return (
     <Container>
       <Wrapper>
-      <Left>Left</Left>
+      <Left>
+      <Language>EN</Language>
+      </Left>
       <Center>Center</Center>
       <Right>Right</Right>
       </Wrapper>
