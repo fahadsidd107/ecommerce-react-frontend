@@ -7,6 +7,7 @@ const Container = styled.div`
   height: 100vh;
   display: flex;
   position: relative;
+    overflow: hidden;
 `;
 
 const Arrow = styled.div`
@@ -25,6 +26,7 @@ const Arrow = styled.div`
   margin: auto;
   cursor: pointer;
   opacity: 0.5;
+
 `;
 
 const Wrapper = styled.div`
