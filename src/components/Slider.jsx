@@ -28,7 +28,25 @@ right: ${props => props.direction === 'right' && '15px'};
 
 const Wrapper = styled.div`
 height:100%;
-background-color:pink;
+`;
+
+const Slide = styled.div`
+width:100vw;
+height:100vh;
+display:flex;
+align-items:center;
+`;
+
+const ImgContainer = styled.div`
+height:100%;
+flex:1;
+`;
+const Img = styled.img`
+height:80%;
+`;
+
+const TnfoContainer= styled.div`
+flex:1;
 `;
 
 
