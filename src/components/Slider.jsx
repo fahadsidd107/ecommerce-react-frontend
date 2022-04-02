@@ -47,6 +47,7 @@ height:80%;
 
 const TnfoContainer= styled.div`
 flex:1;
+padding:50px;
 `;
 
 
@@ -58,7 +59,14 @@ const Slider = () => {
         <ArrowLeftOutlined/>
     </Arrow>
     <Wrapper>
-
+<Slide>
+<ImgContainer>
+<Img src='https://www.pngfind.com/pngs/m/52-523584_model-png-photo-full-body-model-png-transparent.png'/>
+</ImgContainer>
+<TnfoContainer>
+suii
+</TnfoContainer>
+</Slide>
     </Wrapper>
     <Arrow direction="right">
         <ArrowRightOutlined/>
