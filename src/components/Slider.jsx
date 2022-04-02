@@ -50,6 +50,9 @@ flex:1;
 padding:50px;
 `;
 
+const Title = styled.h1``;
+const Description = styled.p``;
+const Button = styled.button``;
 
 
 const Slider = () => {
