@@ -12,6 +12,8 @@ const Img = styled.img`
   width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 12px;
+
   `;
 const Title = styled.h1`
 color:white;
@@ -27,12 +29,16 @@ const Info = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background:rgba(0,0,0,0.4);
+    border-radius: 12px;
 `;
 const Button = styled.button`
 border:none;
 padding:10px;
 background:white;
 color:gray;
+cursor:pointer;
+font-weight:600;
 `;
 
 const CategoryItem = ({ item }) => {
