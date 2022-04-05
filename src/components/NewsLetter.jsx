@@ -4,7 +4,11 @@ import styled from "styled-components";
 
 const Container = styled.div`
 height:60vh;
-bavckground-color:#f5fbfd;
+background-color:#fde3e6;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
 `;
 const Title = styled.h1`
 
