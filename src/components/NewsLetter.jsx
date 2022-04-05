@@ -2,12 +2,25 @@ import { Send } from '@material-ui/icons';
 import React from 'react'
 import styled from "styled-components";
 
-const Container = styled.div``;
-const Title = styled.h1``;
-const Description = styled.div``;
-const InputContainer = styled.div``;
-const Input = styled.input``;
-const Button = styled.button``;
+const Container = styled.div`
+height:60vh;
+bavckground-color:#f5fbfd;
+`;
+const Title = styled.h1`
+
+`;
+const Description = styled.div`
+
+`;
+const InputContainer = styled.div`
+
+`;
+const Input = styled.input`
+
+`;
+const Button = styled.button`
+
+`;
 
 const NewsLetter = () => {
   return (
