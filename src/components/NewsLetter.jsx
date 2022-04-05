@@ -11,7 +11,8 @@ justify-content:center;
 flex-direction:column;
 `;
 const Title = styled.h1`
-
+font-size:70px;
+margin-bottom:20px;
 `;
 const Description = styled.div`
 
