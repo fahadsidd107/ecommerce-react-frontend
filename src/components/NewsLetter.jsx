@@ -2,7 +2,11 @@ import React from 'react'
 
 const NewsLetter = () => {
   return (
-    <div>NewsLetter</div>
+    <Container>
+<Title></Title>
+<Description></Description>
+<InputContainer></InputContainer>
+    </Container>
   )
 }
 
