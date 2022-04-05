@@ -15,8 +15,9 @@ const NewsLetter = () => {
 <Title>NewsLetter</Title>
 <Description>Get TImely Updates from your favorite product.</Description>
 <InputContainer>
-    <Input/>
+    <Input placeholder='Your Email'/>
     <Button>
+    Send
         <Send/>
     </Button>
 </InputContainer>
