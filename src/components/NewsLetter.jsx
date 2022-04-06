@@ -15,8 +15,11 @@ font-size:70px;
 margin-bottom:20px;
 `;
 const Description = styled.div`
-
+font-size:24px;
+font-weight:300;
+margin-bottom:20px;
 `;
+
 const InputContainer = styled.div`
 
 `;
