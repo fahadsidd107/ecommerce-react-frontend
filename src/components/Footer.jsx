@@ -10,6 +10,9 @@ justify-content: space-between;
 
 const Left = styled.div`
 flex:1;
+display: flex;
+flex-direction: column;
+padding: 20px;
 `;
 
 const Logo = styled.h1``;
