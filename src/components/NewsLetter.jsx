@@ -29,10 +29,14 @@ justify-content:space-between;
 border: 1px solid lightgray;
 `;
 const Input = styled.input`
+border:none;
 flex:8;
+padding-left:10px;
 `;
 const Button = styled.button`
 flex:1;
+border:none;
+
 `;
 
 const NewsLetter = () => {
