@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Pinterest, Twitter } from "@material-ui/icons";
+import { Facebook, Instagram, MailOutline, Phone, Pinterest, Twitter,Room } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 
@@ -64,6 +64,17 @@ const Right = styled.div`
   padding: 20px;
 `;
 
+const ContactItem = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+`;
+
+const Payment = styled.img`
+    width: 50%;
+`;
+
+
 const Footer = () => {
   return (
     <Container>
@@ -105,7 +116,22 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <Right>3</Right>
+      <Right>
+      <Title>Contact</Title>
+      <ContactItem>
+      <Room/>
+2 Floor Al-Avenue Building,Block-4,Gulshan-e-Iqbal,Karachi,Pakistan
+      </ContactItem>
+      <ContactItem>
+      <Phone/>
++92-321-1234567
+      </ContactItem>
+      <ContactItem>
+      <MailOutline/>
+fsiddiqui107@gmail.com
+      </ContactItem>
+    <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
     </Container>
   );
 };
