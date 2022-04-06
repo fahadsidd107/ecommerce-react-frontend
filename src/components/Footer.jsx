@@ -17,10 +17,14 @@ padding: 20px;
 
 const Logo = styled.h1``;
 
-const Description = styled.p``;
+const Description = styled.p`
+margin: 20px 0;
+`;
 
 
-const Social = styled.div``;
+const Social = styled.div`
+display: flex;
+`;
 
 const SocialIcon = styled.div``;
 
