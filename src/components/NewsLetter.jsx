@@ -21,13 +21,18 @@ margin-bottom:20px;
 `;
 
 const InputContainer = styled.div`
-
+width:50%;
+height:40px;
+background:white;
+display:flex;
+justify-content:space-between;
+border: 1px solid lightgray;
 `;
 const Input = styled.input`
-
+flex:8;
 `;
 const Button = styled.button`
-
+flex:1;
 `;
 
 const NewsLetter = () => {
@@ -38,7 +43,6 @@ const NewsLetter = () => {
 <InputContainer>
     <Input placeholder='Your Email'/>
     <Button>
-    Send
         <Send/>
     </Button>
 </InputContainer>
