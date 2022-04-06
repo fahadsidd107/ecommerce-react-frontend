@@ -19,6 +19,7 @@ const Logo = styled.h1``;
 
 const Description = styled.p`
 margin: 20px 0;
+text-align: justify;
 `;
 
 
@@ -26,14 +27,26 @@ const Social = styled.div`
 display: flex;
 `;
 
-const SocialIcon = styled.div``;
+const SocialIcon = styled.div`
+ width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background: #${props => props.color};
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+`;
 
 const Center = styled.div`
 flex:1;
+padding: 20px;
 `;
 
 const Right = styled.div`
 flex:1;
+padding: 20px;
 `;
 
 
@@ -48,10 +61,10 @@ const Footer = () => {
          network spread across Asia in Pakistan, Bangladesh, Sri Lanka .
         </Description>
         <Social>
-            <SocialIcon><Facebook/></SocialIcon>
-            <SocialIcon><Instagram/></SocialIcon>
-            <SocialIcon><Twitter/></SocialIcon>
-            <SocialIcon><Pinterest/></SocialIcon>
+            <SocialIcon color="3B5999"><Facebook/></SocialIcon>
+            <SocialIcon color="E4405F"><Instagram/></SocialIcon>
+            <SocialIcon color="55ACEE"><Twitter/></SocialIcon>
+            <SocialIcon color="E60023"><Pinterest/></SocialIcon>
         </Social>
     </Left>
     <Center>2</Center>
