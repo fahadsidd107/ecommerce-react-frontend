@@ -36,7 +36,9 @@ padding-left:10px;
 const Button = styled.button`
 flex:1;
 border:none;
-
+background:teal;
+color:white;
+curson:pointer;
 `;
 
 const NewsLetter = () => {
