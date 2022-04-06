@@ -42,11 +42,22 @@ const Center = styled.div`
   padding: 20px;
 `;
 
-const Title = styled.h3``;
+const Title = styled.h3`
+margin-bottom:20px;
+`;
 
-const List = styled.ul``;
+const List = styled.ul`
+margin: 0;
+padding: 0;
+List-style: none;
+display: flex;
+flex-wrap: wrap;
+`;
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+width: 50%;
+margin-bottom: 10px;
+`;
 
 const Right = styled.div`
   flex: 1;
