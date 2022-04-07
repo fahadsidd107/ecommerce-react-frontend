@@ -119,15 +119,15 @@ const Footer = () => {
       <Right>
       <Title>Contact</Title>
       <ContactItem>
-      <Room/>
+      <Room style={{marginRight:"10px"}}/>
 2 Floor Al-Avenue Building,Block-4,Gulshan-e-Iqbal,Karachi,Pakistan
       </ContactItem>
       <ContactItem>
-      <Phone/>
+      <Phone style={{marginRight:"10px"}}/>
 +92-321-1234567
       </ContactItem>
       <ContactItem>
-      <MailOutline/>
+      <MailOutline style={{marginRight:"10px"}}/>
 fsiddiqui107@gmail.com
       </ContactItem>
     <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
