@@ -18,7 +18,8 @@ const InfoContainer = styled.div``;
 
 const Title = styled.h1``;
 
-const Description = styled.div``;
+const Description = styled.p``;
+const Price = styled.span``;
 
 
 const Product = () => {
@@ -27,8 +28,18 @@ const Product = () => {
       <Navbar/>
       <Announcement/>
       <Wrapper>
-        <ImgContainer><Image></Image></ImgContainer>
-        <InfoContainer><Title><Description></Description></Title></InfoContainer>
+        <ImgContainer>
+        <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+        </ImgContainer>
+        <InfoContainer>
+        <Title>Denim Jumpsuit</Title>
+        <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
+            iaculis arcu nisi sed mauris. Nulla fermentum vestibulum ex, eget
+            tristique tortor pretium ut. Curabitur elit justo, consequat id
+            condimentum ac, volutpat ornare.</Description>
+            <Price>Rs.1500</Price>
+        </InfoContainer>
       </Wrapper>
       <NewsLetter/>
       <Footer/>
