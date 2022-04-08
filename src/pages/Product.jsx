@@ -1,4 +1,5 @@
 
+import { Add, Remove } from '@material-ui/icons';
 import React from 'react'
 import styled from "styled-components";
 import Announcement from '../components/Announcement';
@@ -73,6 +74,13 @@ const FilterSize = styled.select`
   padding: 5px;
 `;
 
+const AddContainer = styled.div``;
+const AmountContainer = styled.div``;
+const Amount = styled.div``;
+const Button = styled.button``;
+
+
+
 const FilterSizeOption = styled.option``;
 const Product = () => {
   return (
@@ -109,6 +117,14 @@ const Product = () => {
               </FilterSize>
             </Filter>
             </FilterContainer>
+            <AddContainer>
+<AmountContainer>
+<Remove/>
+<Amount></Amount>
+<Add/>
+</AmountContainer>
+<Button>Add to Cart</Button>
+            </AddContainer>
         </InfoContainer>
       </Wrapper>
       <NewsLetter/>
