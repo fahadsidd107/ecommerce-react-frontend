@@ -54,6 +54,13 @@ color:white;
 cursor:pointer;
 `;
 
+const Link = styled.a`
+  margin: 5px 0px;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+`;
+
 const Login = () => {
   return (
     <Container>
@@ -63,7 +70,8 @@ const Login = () => {
           <Input placeholder="Email" />
           <Input placeholder="Password" />
           <Button>LOGIN</Button>
-          
+          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
+          <Link>CREATE A NEW ACCOUNT</Link>  
         </Form>
       </Wrapper>
     </Container>
