@@ -96,7 +96,16 @@ align-items:center;
 justify-content:center;
 margin:0px 5px;
 `;
-const Button = styled.button``;
+const Button = styled.button`
+padding: 15px;
+  border: 2px solid teal;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+  &:hover{
+      background-color: #f8f4f4;
+  }
+`;
 
 
 
