@@ -13,7 +13,7 @@ function App() {
   {/* <ProductList/> */}
   {/* <Product/> */}
   <Register/>
-  <Login/>
+  {/* <Login/> */}
 
     </div>
   );
