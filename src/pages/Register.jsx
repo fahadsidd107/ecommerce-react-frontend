@@ -13,13 +13,15 @@ const Container = styled.div`
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  
 `;
 
 const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background:white;
+  margin-left: 40px;
 `;
 const Title = styled.h1`
 font-size:24px;
@@ -41,9 +43,16 @@ padding: 10px;
 const Agreement = styled.span`
 font-size:12px;
 margin:20px 0;
-
 `;
-const Button = styled.button``;
+
+const Button = styled.button`
+width:40%;
+border:none;
+padding:15px 20px; 
+background:teal;
+color:white;
+cursor:pointer;
+`;
 
 const Register = () => {
   return (
