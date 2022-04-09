@@ -10,6 +10,7 @@ function App() {
   {/* <Home/> */}
   {/* <ProductList/> */}
   <Product/>
+  
     </div>
   );
 }
