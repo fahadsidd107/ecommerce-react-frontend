@@ -31,9 +31,18 @@ display:flex;
 flex-wrap:wrap;
 `;
 
+const Input = styled.input`
+flex:1;
+min-width:40%;
+margin: 20px 10px 0 0;
+padding: 10px;
+`;
 
-const Input = styled.input``;
-const Agreement = styled.span``;
+const Agreement = styled.span`
+font-size:12px;
+margin:20px 0;
+
+`;
 const Button = styled.button``;
 
 const Register = () => {
