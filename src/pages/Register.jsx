@@ -23,9 +23,15 @@ const Wrapper = styled.div`
 `;
 const Title = styled.h1`
 font-size:24px;
+font-weight:300;
 `;
 
-const Form = styled.form``;
+const Form = styled.form`
+display:flex;
+flex-wrap:wrap;
+`;
+
+
 const Input = styled.input``;
 const Agreement = styled.span``;
 const Button = styled.button``;
