@@ -34,7 +34,9 @@ const TopButton = styled.button`
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
-
+const TopTexts = styled.div`
+ 
+`;
 const TopText = styled.span`
   text-decoration: underline;
   cursor: pointer;
