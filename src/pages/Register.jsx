@@ -54,6 +54,8 @@ color:white;
 cursor:pointer;
 `;
 
+
+
 const Register = () => {
   return (
     <Container>
