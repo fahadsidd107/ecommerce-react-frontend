@@ -1,14 +1,15 @@
 import { Add, Remove } from "@material-ui/icons";
-import React from "react";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
+
 const Container = styled.div``;
 
 const Wrapper = styled.div`
   padding: 20px;
+  ${'' /* ${mobile({ padding: "10px" })} */}
 `;
 
 const Title = styled.h1`
@@ -33,7 +34,8 @@ const TopButton = styled.button`
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
-const TopTexts = styled.div``;
+const TopTexts = styled.div`
+`;
 const TopText = styled.span`
   text-decoration: underline;
   cursor: pointer;
@@ -74,8 +76,6 @@ const ProductName = styled.span``;
 
 const ProductId = styled.span``;
 
-const Color = styled.div``;
-
 const ProductColor = styled.div`
   width: 20px;
   height: 20px;
@@ -102,11 +102,13 @@ const ProductAmountContainer = styled.div`
 const ProductAmount = styled.div`
   font-size: 24px;
   margin: 5px;
+ 
 `;
 
 const ProductPrice = styled.div`
   font-size: 30px;
   font-weight: 200;
+
 `;
 
 const Hr = styled.hr`
@@ -166,7 +168,7 @@ const Cart = () => {
           <Info>
             <Product>
               <ProductDetail>
-                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
                 <Details>
                   <ProductName>
                     <b>Product:</b> JESSIE THUNDER SHOES
@@ -174,10 +176,7 @@ const Cart = () => {
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
-                  <Color>
-                    <ProductColor color="black" />
-                    <ProductColor color="red" />
-                  </Color>
+                  <ProductColor color="black" />
                   <ProductSize>
                     <b>Size:</b> 37.5
                   </ProductSize>
