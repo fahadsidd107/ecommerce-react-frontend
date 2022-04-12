@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
   {/* <Home/> */}
-  {/* <ProductList/> */}
+  <ProductList/>
   {/* <Product/> */}
-  <Register/>
+  {/* <Register/> */}
   {/* <Login/> */}
   {/* <Cart/> */}
 
